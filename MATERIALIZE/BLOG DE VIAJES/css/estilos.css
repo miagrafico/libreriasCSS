@@ -1,0 +1,182 @@
+/*EFECTO SCROLL*/
+body{
+
+  background-image: url("../img/fondo3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+
+/*------------*/
+/*ALTURA DEL NAV y POSICIONAMIENTO - FILA 14*/
+.altura-position{
+  height: 10rem !important;
+  position: fixed;
+  width: 100%;
+  margin-top:0;
+}
+/*---------*/
+
+
+/*ESPACIO TOP DE LOS BOTONES - FILA 25*/
+
+
+
+
+/*-------------*/
+
+/*color boton*/
+
+.color-boton{
+  background-color: #fb3e7e;
+
+}
+/*tamaño botones*/
+
+.btn{
+  font-size: 60%;
+}
+
+/*tamaño de iconos*/
+
+.size-10{
+  font-size: 18px !important;
+  margin: 1px !important;
+}
+.padd-icono{
+  font-size: 20px;
+  margin-right:0 !important;
+  padding: 0 !important;
+  padding-top: 8px !important;
+
+}
+.padd-icono2{
+  font-size: 20px;
+  margin-right:0 !important;
+  padding: 0 !important;
+
+
+}
+/*paddgin de la imagen*/
+.img-viaje{
+  padding-right: 10px;
+  padding-top: 15px !important;
+  margin-top: 15px !important;
+  padding-left: 15px !important;
+
+}
+
+/*chips en la entrada del blog*/
+.chip{
+  font-size: 10px;
+}
+
+/*padding del texto*/
+
+.texto-padd{
+  padding: 15px;
+}
+/*hr*/
+
+.hr{
+  height: 1px;
+  border: 0;
+  background-color: #fb3e7e;
+}
+
+/*tamaño de la letra del copi*/
+
+.tamaño-letra{
+  font-size: 25px;
+  padding-top:0;
+  margin-top:0;
+  display: inline;
+
+}
+
+.btn {
+
+border:0px;
+padding-left:3px;
+padding-right: 3px;
+margin:4px !important;
+}
+/*copi*/
+.copi{
+
+  margin-top: 10% !important;
+}
+
+/*media query*/
+@media (max-width:780px){
+  .tamaño-letra{
+    font-size: 20px;
+    padding-top:0;
+    margin-top:0;
+
+  }
+  .logo{
+    width: 100%;
+    margin-top: auto;
+
+  }
+  .botones{
+    width: auto%;
+    font-size: 0px;
+    text-align: right;
+
+
+  }
+  .copi{
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 10% !important;
+  }
+  body{
+    background-image: url("../img/fondo2.jpg");
+    background-repeat:repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+  }
+  .img-viaje{
+    width: 100%;
+  }
+  .uno{
+    order:1 !important;
+  }
+  .dos{
+    order:2 !important;
+  }
+  .tres{
+    order:3 !important;
+  }
+  .cuatro{
+    order: 4 !important;
+  }
+
+}
+
+@media (min-width:781px) and (max-width:1018px){
+  body{
+    background-image: url("../img/fondo2.jpg");
+    background-repeat:repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+  }
+  .img-viaje{
+    width: 100%;
+  }
+  .uno{
+    order:1 !important;
+  }
+  .dos{
+    order:2 !important;
+  }
+  .tres{
+    order:3 !important;
+  }
+
+}

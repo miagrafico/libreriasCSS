@@ -1,0 +1,122 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-image: url("../img/fondo2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.contendor{
+  background: white;
+  opacity: 0.9;
+}
+
+/*ALINEAR EL COPI A LA DERECHA*/
+div .h6-right  {
+  text-align: right;
+
+}
+
+/*TEXTO COLOR BLANCO*/
+
+.color-blanco{
+  color:white;
+}
+/*COLUMNA BLANCA TITULO*/
+.column-black{
+  background-color:black;
+  opacity: 0.8;
+}
+/*LINEA VERTICAL*/
+
+.verticalLine {
+  border-right:1px  solid white;
+}
+/*-------------------------*/
+
+/*LINEA HORIZONTAL*/
+hr{
+  height: 1px;
+  border:0;
+  background-color: white;
+}
+
+hr.gray{
+  height: 1px;
+  border:0;
+  background-color: gray;
+}
+/*DISEÑO DEL SEARCH*/
+.input-group-rounded .input-group-field {
+  border-radius: 5000px 0 0 5000px;
+  padding-left: 1rem;
+
+}
+
+.input-group-rounded .input-group-button .button {
+  border-radius: 0 5000px 5000px 0;
+  font-size: 0.8rem;
+  background-color: pink;
+}
+/*.........................*/
+
+/*QUITAR ESPACIADO ENTRE LOS ENLACES*/
+.boton-espacio{
+  margin: 0 !important;
+}
+/*......................*/
+/*IMAGENES DE FAVORITOS*/
+.espacio{
+  padding: 0;
+
+}
+/*COLOR DEL TEXTO*/
+.color-fav{
+  color: #f84779;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+
+/* COLOR BLANCO PARA LA FILA*/
+.color-fila{
+  background-color: white;
+  opacity: 1 !important;
+
+}
+/*................*/
+
+/*BOTON DE PUBLICAR*/
+.boton-derecha{
+  text-align: right;
+}
+
+
+/*ICONOS SIZE*/
+
+.size-20{
+  font-size: 20px;
+}
+
+.size-15{
+  font-size: 15px
+}
+
+
+/*media quaries - QUITAR LINEA VERTICAL TITULO*/
+
+@media (max-width:780px){
+.verticalLine{
+  border-right:none;
+}
+/*EFECTO SCROLL- para que el fondo se quede quieto*/
+body{
+  background-image: url("../img/fondo2.jpg");
+  background-repeat:repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+}

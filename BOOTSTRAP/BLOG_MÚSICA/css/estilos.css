@@ -1,0 +1,37 @@
+
+/* separar los botones de los iconos de las redes sociales*/
+ .navboton{
+   background-color: #2d9adc;
+
+   margin-top: 10px !important;
+ }
+/* dar espacio entre texto e imagenes*/
+.coment{
+  margin-left: 5px;
+}
+/*...............*/
+
+@media (max-width:768px){
+  
+  .redes{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .logo-img{
+    width: 20%;
+  }
+.comentario{
+  margin-top: 20px;
+}
+
+}
+
+@media (min-width:768px){
+
+.comentario{
+  margin-top: 20px;
+}
+
+}
